@@ -1,13 +1,52 @@
 @CHARSET "UTF-8";
+body {
+	font-family: 바탕;
+	color: green;
+}
 p {
-	color: maroon;
+	/*color: maroon;*/
+	color: black;
   }
 h1, h2 {
-	font-family: sans-serif;
 	color: gray;
 }
 h1 {
 	border-bottom: 1px solid black;
 }
+em {
+	font-family: serif;
+}
+/* 폭포수 모델이므로 em을 body보다 위에 적으면 serif 적용이 안 됨 */
 /* p, em : p와 em 태그에 모두 적용,
    p  em : p 태그 안에 있는 em 태그에만 적용 */
+
+p.greentea {
+	color: green;
+}
+
+p.raspberry {
+	color: red;
+}
+
+p.blueberry {
+	color: blue;
+}
+/* 여러 클래스를 하나의 태그에 동시에 정의할 경우, 가장 마지막 css가 적용됨 */
+
+
+/* font-family : 폰트,
+   font-size : 글씨 크기,
+   font-weight : 글씨 굵기,
+   font-style : 폰트 스타일,
+   color : 텍스트 색,
+   text-decoration : 밑줄 */
+
+   
+   
+   
+   
+   
+   
+   
+   
+   

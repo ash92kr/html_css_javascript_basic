@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+body {
+	/* font-family: 굴림, 돋움, Verdana, Geneva, Arial, sans-serif; */
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 14px;
+	}
+
+h1 {
+	font-size: 200%
+}
+
+h3 {
+	font-size: 1.5em
+}
+
+p {
+	font-size: small;
+}
+
+
+
+
+
