@@ -3,22 +3,38 @@
 body {
 	/* font-family: 굴림, 돋움, Verdana, Geneva, Arial, sans-serif; */
 	font-family: 'Ma Shan Zheng', cursive;
-	font-size: 14px;
+	/* font-size: 14px; */
+	font-size: small;
 	}
 
 h1 {
-	font-size: 200%
+	font-size: 220%;
+}
+
+h2 {
+	font-size: 130%;
+	font-weight: normal;
+	/* font-weight : bold, normal, bolder, lighter */
 }
 
 h3 {
-	font-size: 1.5em
+	font-size: 1.5em;
 }
 
 p {
 	font-size: small;
 }
 
+blockquote {
+	/* font-style: oblique(그냥 기울임만 적용), italic */
+}
 
+h1, h2 {
+	color: #cc6600;
+	border-bottom: thin dotted #888888;
+}
+
+/* text-decoration: line-through;(취소선), underline(밑줄), overline(윗줄), none(없음)  */
 
 
 

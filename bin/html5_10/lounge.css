@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+#elixirs {
+	width: 200px;
+	border: thin solid #007e7e;
+	padding: 0 20px 20px 20px;
+	margin: 0 0 0 20px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url("../image/cocktail.gif");
+	background-repeat: repeat-x;
+}
+/* border와 background는 각각 width, style, color/ color, image, repeat, position을 하나에 묶어 쓸 수 있다 */
+/* font의 경우 style weight size/line-height family 순으로 적어야 한다  */
+
+
+div#elixirs > h2 {
+	color: black;
+}
+
+div#elixirs > h3 {
+	color: #d12c47;
+}
+
+span.cd {
+	font-style: italic;
+}
+
+span.artist {
+	font-weight: bold;
+}
+
+a:link {
+	color: #007e7e;
+}
+
+a:visited {
+	color: #333333;
+}
+
+a:hover {
+	background: #f88396;
+	color: #0d5353;
+}
+/* hover : 마우스를 링크에 올려놋았을 때 적용됨 */
+
+#footer {
+	font-size: 50%;
+	text-align: center;
+	line-height: normmal;
+	margin-top: 30pd
+}
+
+
+
+
