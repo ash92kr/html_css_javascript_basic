@@ -1,0 +1,65 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+
+body {
+  background-color: #b5a789;
+  font-size: italic bold small /1.6em "Nanum Gothic", Georgia, "Times New Roman", Times, serif;
+  margin: 0px;
+}
+
+#header {
+  background-color: #675c47;
+  margin: 10px;
+  height: 108px;
+}
+
+#main {
+  background: #efe5d0 url(images/background.gif) top left;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 330px 10px 10px;
+}
+
+#sidebar {
+  background: #efe5d0 url(images/background.gif) bottom right;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 10px 10px;
+  float: right;
+  width: 280px;
+}
+
+#footer {
+  background-color: #675c74;
+  color: #efe5d0;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  font-size: 90%;
+  clear: right;
+}  /* clear : float한 요소 주변에 아무것도 오지 않도록 만들기 : left, right, none 방향 정하기 */
+
+h1 {
+  font: 120%;
+  color: #954b4b 
+}
+
+.slogan { 
+  color: #954b4b;
+}
+
+.beanheading {
+  text-align: center;
+  line-height: 1.8em;
+}
+
+a:link {
+  color: #b76666;
+  text-decoration: none;
+  border-bottom: thin dotted #b76666;
+}
+
+a:visited {
+  color: #675c47;
+  text-doceration: none;
+  border-bottom: thin dotted #675c47;
+}
